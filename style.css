@@ -1,0 +1,1091 @@
+@charset "UTF-8";
+/*This is the main style sheet*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.ligth main aside {
+  background-color: #898121;
+  transition: all 500ms ease-in-out;
+}
+.ligth main aside .myphoto {
+  background-image: url("imagenes/myphotoLigth.jpg");
+  transition: all 500ms ease-in-out;
+}
+.ligth main aside .nav_list ul li a {
+  color: #F7F1E5;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all {
+  background-color: #F7F1E5;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .burger_menu {
+  color: #272829;
+}
+.ligth main .cont_all .portCar {
+  border-top: 1px solid #4C4B16;
+  border-bottom: 1px solid #4C4B16;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .tema h2 {
+  color: #272829;
+  text-shadow: 0px 1px 6px rgba(39, 40, 41, 0.1960784314);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .tema h2 span {
+  color: #E7B10A;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .info h3 {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .info p {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .info p a {
+  color: #E7B10A;
+  text-shadow: 0px 1px 6px rgba(39, 40, 41, 0.1960784314);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .btn_redes .cont_btn a {
+  background-color: #272829;
+  color: #E7B10A;
+  box-shadow: 0px 1px 1px 2px rgba(76, 75, 22, 0.1529411765);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .btn_redes .cont_btn a:hover {
+  transition: all 500ms;
+  background-color: #E7B10A;
+  color: #272829;
+  cursor: pointer;
+}
+.ligth main .cont_all .portCar .btn_redes .redes .circles_redes {
+  background-color: #272829;
+}
+.ligth main .cont_all .portCar .btn_redes .redes .circles_redes i {
+  color: #F7F1E5;
+}
+.ligth main .cont_all .portCar .btn_redes .redes .circles_redes:hover {
+  transition: all 250ms ease-in-out;
+  background-color: #F7F1E5;
+  box-shadow: 0px 1px 6px rgba(39, 40, 41, 0.1843137255);
+}
+.ligth main .cont_all .portCar .btn_redes .redes .circles_redes:hover i {
+  color: #272829;
+}
+.ligth main .cont_all .portCar .remark {
+  color: #E7B10A;
+  text-shadow: 0px 1px 3px rgba(39, 40, 41, 0.1215686275);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .contact a {
+  color: #E7B10A;
+  text-shadow: 0px 1px 3px rgba(39, 40, 41, 0.1215686275);
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car {
+  background-color: #F7F1E5;
+  box-shadow: 0px 1px 6px rgba(39, 40, 41, 0.2117647059);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .title {
+  color: #4C4B16;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .extracto {
+  color: #898121;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .tec .leng {
+  background-color: #E7B10A;
+  color: #F7F1E5;
+  text-shadow: 0px 1px 5px rgba(39, 40, 41, 0.4196078431);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .links a {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .links a .circle_link {
+  background-color: #E7B10A;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .cont_car_proyects .cont_car .information .links a .circle_link:hover {
+  transition: all 600ms ease-in-out;
+  box-shadow: 0px 1px 6px rgba(39, 40, 41, 0.4431372549);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .curso .title_text_date .title_text h3 {
+  color: #272829;
+  text-shadow: 0px 1px 2px rgba(39, 40, 41, 0.1450980392);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .curso .title_text_date .title_text h3 span {
+  color: #E7B10A;
+}
+.ligth main .cont_all .portCar .curso .title_text_date .title_text p {
+  color: #4C4B16;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .curso .title_text_date .date p {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .curso .time_and_certificado .time {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .curso .time_and_certificado .btn_certificado a {
+  background-color: #272829;
+  color: #E7B10A;
+  box-shadow: 0px 1px 1px 2px rgba(76, 75, 22, 0.1529411765);
+}
+.ligth main .cont_all .portCar .curso .time_and_certificado .btn_certificado a:hover {
+  transition: all 500ms;
+  background-color: #E7B10A;
+  color: #272829;
+  cursor: pointer;
+}
+.ligth main .cont_all .portCar .myskills .skills .all_ul li {
+  background-color: #272829;
+  color: #F7F1E5;
+  box-shadow: 0px 1px 5px rgba(231, 176, 10, 0.2117647059);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .myskills .skills .all_ul li span {
+  color: #E7B10A;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .myskills .skills .all_ul li a {
+  color: #F7F1E5;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .myskills .skills .all_ul li:hover {
+  background-color: #E7B10A;
+  color: #272829;
+  box-shadow: 1px 2px 8px rgba(39, 40, 41, 0.4823529412);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .myskills .skills .all_ul li:hover span {
+  color: #4C4B16;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .infocontact ul li {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .infocontact ul li a {
+  color: #E7B10A;
+  text-shadow: 0px 2px 3px rgba(39, 40, 41, 0.1215686275);
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .infoDesarrollo h3 {
+  color: #272829;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .infoDesarrollo ul li {
+  background-color: #272829;
+  color: #F7F1E5;
+  transition: all 500ms ease-in-out;
+}
+.ligth main .cont_all .portCar .infoDesarrollo ul li i {
+  margin-right: 0.3em;
+}
+.ligth main .cont_all .portCar .infoDesarrollo ul li:hover {
+  background-color: #E7B10A;
+  color: #272829;
+  box-shadow: 1px 2px 8px rgba(39, 40, 41, 0.4823529412);
+  transition: all 500ms ease-in-out;
+}
+
+.dark {
+  transition: all 500ms ease-in-out;
+}
+.dark main aside {
+  background-color: #735f32;
+}
+.dark main aside .myphoto {
+  background-image: url("imagenes/myphotoDark.jpg");
+  transition: all 500ms ease-in-out;
+}
+.dark main aside .nav_list ul li a {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all {
+  background-color: #282A3A;
+}
+.dark main .cont_all .burger_menu {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar {
+  border-top: 1px solid #E7B10A;
+  border-bottom: 1px solid #E7B10A;
+}
+.dark main .cont_all .portCar .tema h2 {
+  color: rgba(238, 238, 238, 0.9333333333);
+  text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4078431373);
+}
+.dark main .cont_all .portCar .tema h2 span {
+  color: #E7B10A;
+}
+.dark main .cont_all .portCar .info h3 {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .info p {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .info p a {
+  color: #E7B10A;
+  text-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1960784314);
+}
+.dark main .cont_all .portCar .btn_redes .cont_btn a {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  color: #000000;
+  box-shadow: 0px 1px 2px 5px #272829;
+}
+.dark main .cont_all .portCar .btn_redes .cont_btn a:hover {
+  transition: all 500ms;
+  background-color: #E7B10A;
+  color: #272829;
+  cursor: pointer;
+}
+.dark main .cont_all .portCar .btn_redes .redes .circles_redes {
+  background-color: #735f32;
+}
+.dark main .cont_all .portCar .btn_redes .redes .circles_redes i {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .btn_redes .redes .circles_redes:hover {
+  transition: all 250ms ease-in-out;
+  background-color: #E7B10A;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4666666667);
+}
+.dark main .cont_all .portCar .btn_redes .redes .circles_redes:hover i {
+  color: #272829;
+}
+.dark main .cont_all .portCar .remark {
+  color: #E7B10A;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275);
+}
+.dark main .cont_all .portCar .contact p {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .contact a {
+  color: #E7B10A;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275);
+  cursor: pointer;
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car {
+  background-color: #282A3A;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5294117647);
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .title {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .extracto {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .tec .leng {
+  background-color: #E7B10A;
+  color: #272829;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4196078431);
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .links a {
+  color: #272829;
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .links a .circle_link {
+  background-color: #E7B10A;
+}
+.dark main .cont_all .portCar .cont_car_proyects .cont_car .information .links a .circle_link:hover {
+  transition: all 600ms ease-in-out;
+  box-shadow: 0px 1px 6px rgba(214, 220, 227, 0.4431372549);
+}
+.dark main .cont_all .portCar .curso .title_text_date .title_text h3 {
+  color: rgba(238, 238, 238, 0.9333333333);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1450980392);
+}
+.dark main .cont_all .portCar .curso .title_text_date .title_text h3 span {
+  color: #E7B10A;
+}
+.dark main .cont_all .portCar .curso .title_text_date .title_text p {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .curso .title_text_date .date p {
+  color: #d9e0e6;
+}
+.dark main .cont_all .portCar .curso .time_and_certificado .time {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .curso .time_and_certificado .btn_certificado a {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  color: #272829;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4235294118);
+}
+.dark main .cont_all .portCar .curso .time_and_certificado .btn_certificado a:hover {
+  transition: all 500ms;
+  background-color: #E7B10A;
+  color: #272829;
+  cursor: pointer;
+}
+.dark main .cont_all .portCar .myskills .skills h3 {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .myskills .skills .all_ul li {
+  background-color: #735f32;
+  color: rgba(238, 238, 238, 0.9333333333);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2117647059);
+}
+.dark main .cont_all .portCar .myskills .skills .all_ul li span {
+  color: #E7B10A;
+}
+.dark main .cont_all .portCar .myskills .skills .all_ul li a {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .myskills .skills .all_ul li:hover {
+  background-color: #E7B10A;
+  color: #272829;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.4823529412);
+  transition: all 500ms ease-in-out;
+}
+.dark main .cont_all .portCar .myskills .skills .all_ul li:hover span {
+  color: rgba(238, 238, 238, 0.9333333333);
+  transition: all 500ms ease-in-out;
+}
+.dark main .cont_all .portCar .infocontact ul li {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .infocontact ul li a {
+  color: #E7B10A;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1215686275);
+}
+.dark main .cont_all .portCar .infoDesarrollo h3 {
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .infoDesarrollo ul li {
+  background-color: #735f32;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.dark main .cont_all .portCar .infoDesarrollo ul li i {
+  margin-right: 0.3em;
+}
+.dark main .cont_all .portCar .infoDesarrollo ul li:hover {
+  background-color: #E7B10A;
+  color: #272829;
+  box-shadow: 1px 2px 8px rgba(39, 40, 41, 0.4823529412);
+  transition: all 500ms ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /*here i had to make some adjustments so that the aside
+  and the main were side by side...*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+}
+main aside {
+  width: 350px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  order: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+}
+@media screen and (max-width: 320px) {
+  main aside {
+    width: 320px;
+  }
+}
+main aside .exit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: auto;
+  display: none;
+  justify-content: center;
+  font-size: 1.5em;
+  color: #F7F1E5;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+main aside .exit i {
+  cursor: pointer;
+}
+main aside .myphoto {
+  width: 170px;
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+main aside .nav_list {
+  width: 90%;
+  height: auto;
+  margin-top: 2em;
+}
+main aside .nav_list ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
+main aside .nav_list ul li {
+  margin: 0.5em 0;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border-radius: 0.5em;
+  padding: 0.8em 1em;
+  cursor: pointer;
+}
+main aside .nav_list ul li a {
+  text-decoration: none;
+}
+main aside .nav_list ul li a:hover {
+  color: #E7B10A;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3019607843);
+  transition: all 200ms ease-in-out;
+}
+main aside .nav_list ul li .activo {
+  pointer-events: none;
+}
+main aside .nav_list ul .activo {
+  background-color: #E7B10A;
+  border-radius: 0.5em;
+  padding: 0.8em 1em;
+  transition: all 200ms ease-in-out;
+}
+main aside .cont_all_btn_dark {
+  width: 250px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main aside .cont_all_btn_dark .cont_btn_dark {
+  width: 130px;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .switch {
+  width: 60%;
+  height: 45%;
+  background-color: rgb(159, 159, 159);
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+}
+main aside .cont_all_btn_dark .cont_btn_dark .switch::after {
+  content: ""; /*Es muy importante para que funcionen los demás estilos...*/
+  display: block;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background-color: #f1f1f1;
+  top: 2px;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 500ms ease-in-out;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .switch img {
+  width: 30%;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .switch img:first-of-type {
+  margin-left: 0.4rem;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .switch img:last-of-type {
+  margin-right: 0.4rem;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .active {
+  width: 60%;
+  height: 45%;
+  background-color: rgba(230, 179, 84, 0.691);
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+}
+main aside .cont_all_btn_dark .cont_btn_dark .active::after {
+  content: ""; /*Es muy importante para que funcionen los demás estilos...*/
+  display: block;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background-color: #f1f1f1;
+  top: 2px;
+  left: unset;
+  right: 0;
+  border-radius: 100px;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 500ms ease-in-out;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .active img {
+  width: 30%;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .active img:first-of-type {
+  margin-left: 0.4rem;
+}
+main aside .cont_all_btn_dark .cont_btn_dark .active img:last-of-type {
+  margin-right: 0.4rem;
+}
+main .cont_all {
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+  order: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 854px) {
+  main .cont_all {
+    padding: 0;
+  }
+}
+main .cont_all .burger_menu {
+  position: fixed;
+  top: 35px;
+  right: 0;
+  width: 50px;
+  height: auto;
+  display: none;
+  justify-content: center;
+  font-size: 2em;
+  cursor: pointer;
+}
+main .cont_all .portCar {
+  padding: 1em 0 1em 0;
+  width: 90%;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media screen and (max-width: 854px) {
+  main .cont_all .portCar {
+    padding: 0;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 506px) {
+  main .cont_all .portCar {
+    align-items: center;
+  }
+}
+main .cont_all .portCar .tema {
+  margin: 1em 0 3em 0;
+  width: 80%;
+  height: auto;
+}
+@media screen and (max-width: 506px) {
+  main .cont_all .portCar .tema {
+    text-align: center;
+  }
+}
+main .cont_all .portCar .tema h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3.5em;
+}
+@media screen and (max-width: 506px) {
+  main .cont_all .portCar .tema h2 {
+    font-size: 2.5em;
+  }
+}
+main .cont_all .portCar .info {
+  width: 90%;
+  height: auto;
+}
+main .cont_all .portCar .info h3 {
+  font-size: 2em;
+  letter-spacing: 0.08em;
+  margin-bottom: 2em;
+}
+main .cont_all .portCar .info p {
+  font-size: 1.1em;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+}
+main .cont_all .portCar .info p a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+main .cont_all .portCar .btn_redes {
+  width: 90%;
+  height: auto;
+  margin: 2em 0 3em 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .cont_all .portCar .btn_redes .cont_btn {
+  width: 95%;
+  padding: 0.9em 0;
+}
+main .cont_all .portCar .btn_redes .cont_btn a {
+  border-radius: 0.5em;
+  padding: 0.9em;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  color: #E7B10A;
+}
+main .cont_all .portCar .btn_redes .redes {
+  width: 250px;
+  height: auto;
+  margin-top: 4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+main .cont_all .portCar .btn_redes .redes .circles_redes {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  cursor: pointer;
+}
+main .cont_all .portCar .btn_redes .redes a {
+  text-decoration: none;
+}
+main .cont_all .portCar .remark {
+  width: 95%;
+  height: auto;
+  font-size: 1.3em;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  line-height: 1.6;
+}
+main .cont_all .portCar .contact {
+  width: 95%;
+  height: auto;
+  font-size: 1.1em;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+}
+main .cont_all .portCar .contact a {
+  cursor: pointer;
+}
+main .cont_all .portCar .cont_car_proyects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 1em 0 3em 0;
+}
+@media screen and (max-width: 854px) {
+  main .cont_all .portCar .cont_car_proyects {
+    justify-content: center;
+  }
+}
+main .cont_all .portCar .cont_car_proyects .cont_car {
+  width: 370px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .payment {
+  width: 100%;
+  height: 45%;
+  background-image: url("imagenes/paymentcar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .e_comerce {
+  width: 100%;
+  height: 45%;
+  background-image: url("imagenes/ecomnerce.jpg");
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .metodos {
+  width: 100%;
+  height: 45%;
+  background-image: url("imagenes/metodos.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .calculator {
+  width: 100%;
+  height: 45%;
+  background-image: url("imagenes/calculator.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .articulo {
+  width: 100%;
+  height: 45%;
+  background-image: url("imagenes/articulo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .title {
+  font-size: 1.2em;
+  width: 95%;
+  text-align: center;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .extracto {
+  font-size: 1em;
+  width: 95%;
+  text-align: center;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .tec {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .tec .leng {
+  padding: 0.5em 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .links {
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 0.6em 0;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .links a {
+  text-decoration: none;
+}
+main .cont_all .portCar .cont_car_proyects .cont_car .information .links a .circle_link {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cont_all .portCar .curso {
+  width: 95%;
+  height: auto;
+  padding: 1em 0 1em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .cont_all .portCar .curso .title_text_date {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 3em;
+}
+@media screen and (max-width: 854px) {
+  main .cont_all .portCar .curso .title_text_date {
+    width: 100%;
+  }
+}
+main .cont_all .portCar .curso .title_text_date .title_text {
+  width: 80%;
+  height: auto;
+  letter-spacing: 0.06em;
+}
+main .cont_all .portCar .curso .title_text_date .title_text h3 {
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 854px) {
+  main .cont_all .portCar .curso .title_text_date .title_text h3 {
+    font-size: 1.2em;
+  }
+}
+main .cont_all .portCar .curso .title_text_date .title_text h3 a {
+  text-decoration: none;
+}
+main .cont_all .portCar .curso .title_text_date .title_text p {
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+main .cont_all .portCar .curso .title_text_date .date {
+  width: 15%;
+  text-align: center;
+}
+main .cont_all .portCar .curso .title_text_date .date p {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+main .cont_all .portCar .curso .time_and_certificado {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .cont_all .portCar .curso .time_and_certificado .time {
+  font-size: 0.75em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+main .cont_all .portCar .curso .time_and_certificado .btn_certificado {
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main .cont_all .portCar .curso .time_and_certificado .btn_certificado a {
+  border-radius: 0.5em;
+  padding: 0.9em;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+}
+main .cont_all .portCar .myskills {
+  width: 95%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .cont_all .portCar .myskills .skills {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+main .cont_all .portCar .myskills .skills .titles_all {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+main .cont_all .portCar .myskills .skills .all_ul {
+  padding: 1em 0 1em 0;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main .cont_all .portCar .myskills .skills .all_ul li {
+  padding: 0.5em;
+  width: auto;
+  height: auto;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+main .cont_all .portCar .myskills .skills .all_ul li i {
+  margin-right: 0.3em;
+}
+main .cont_all .portCar .myskills .skills .all_ul li span {
+  transition: all 500ms ease-in-out;
+}
+main .cont_all .portCar .infocontact {
+  width: 95%;
+  height: auto;
+}
+main .cont_all .portCar .infocontact ul {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  font-size: 1.2em;
+}
+main .cont_all .portCar .infocontact ul li {
+  margin: 1.5em 0;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+main .cont_all .portCar .infocontact ul li i {
+  margin-right: 0.3em;
+}
+main .cont_all .portCar .infoDesarrollo {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .cont_all .portCar .infoDesarrollo h3 {
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+main .cont_all .portCar .infoDesarrollo ul {
+  border: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+}
+main .cont_all .portCar .infoDesarrollo ul li {
+  padding: 0.5em 0.7em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+main .cont_all .portCar .infoDesarrollo ul li i {
+  margin-right: 0.3em;
+}
+main .cont_all #porta {
+  height: auto;
+}
+main .cont_all #porta #tem {
+  margin-top: 3em;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #272829;
+  padding: 2em;
+  color: #F7F1E5;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .my_name {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  padding: 3em 0;
+}
+footer .my_name h3 {
+  margin-bottom: 0.3em;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5294117647);
+}
+footer .my_name h3 span {
+  color: #E7B10A;
+}
+footer .my_name h4 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5294117647);
+}
+footer .date {
+  width: 90%;
+  height: auto;
+  border-top: 0.5px solid #F7F1E5;
+  text-align: center;
+  padding: 1em 0;
+}
+footer .date h4 {
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5294117647);
+}
+
+@media screen and (max-width: 854px) {
+  main aside {
+    position: fixed;
+    right: 0;
+    display: none;
+  }
+  main aside .exit {
+    display: block;
+  }
+  main .cont_all .burger_menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 506px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-height: 720px) {
+  main aside .myphoto {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

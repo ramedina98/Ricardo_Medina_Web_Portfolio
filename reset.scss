@@ -1,0 +1,518 @@
+@use './colors.scss' as *;
+
+//ligth mode...
+.ligth{
+    main{
+        aside{
+            background-color: $aside-ligth;
+            transition: all 500ms ease-in-out;
+            .myphoto{
+                background-image: url("imagenes/myphotoLigth.jpg");
+                transition: all 500ms ease-in-out;
+            }
+            .nav_list{
+                ul{
+                    li{
+                        a{
+                            color: $body-ligth;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+        .cont_all{
+            background-color: $body-ligth;
+            transition: all 500ms ease-in-out;
+            .burger_menu{
+                color: $Text-ligth;
+            }
+            .portCar{
+                border-top: 1px solid $dark-ligth;
+                border-bottom: 1px solid $dark-ligth;
+                transition: all 500ms ease-in-out;
+                .tema{
+                    h2{
+                        //el color se cambia en rest..
+                        color: $Text-ligth;
+                        text-shadow: 0px 1px 6px #27282932;
+                        transition: all 500ms ease-in-out;
+                        span{
+                            //cambiar color en reset
+                            color: $Title-and-selected-ligth;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                }
+                .info{
+                    h3{
+                        color: $Text-ligth;
+                        transition: all 500ms ease-in-out;
+                    }
+                    p{
+                        color: $Text-ligth;
+                        transition: all 500ms ease-in-out;
+                        a{
+                            color:$Title-and-selected-ligth;
+                            text-shadow: 0px 1px 6px #27282932;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                }
+                .btn_redes{
+                    .cont_btn{
+                        a{
+                            background-color: $Text-ligth;
+                            color: #E7B10A;
+                            box-shadow: 0px 1px 1px 2px $dark-shadow-ligth;
+                            transition: all 500ms ease-in-out;
+                        }
+                        a:hover{
+                            transition: all 500ms;
+                            background-color: #E7B10A;
+                            color: #272829;
+                            cursor: pointer;
+                        }
+                    }
+                    .redes{
+                        .circles_redes{
+                            background-color: #272829;
+                            i{
+                                color: $body-ligth;
+                            }
+                        }
+                        .circles_redes:hover{
+                            //cambiar esto en reset...
+                            transition: all 250ms ease-in-out;
+                            background-color: $body-ligth;
+                            box-shadow: 0px 1px 6px #2728292f;
+                        }
+                        .circles_redes:hover i{
+                            color: $Text-ligth;
+                        }
+                    }
+                }
+                //about me...
+                .remark{
+                    color: $Title-and-selected-ligth;
+                    text-shadow: 0px 1px 3px #2728291f;
+                    transition: all 500ms ease-in-out;
+                }
+                .contact{
+                    a{
+                        //cambiar en reset...
+                        color: $Title-and-selected-ligth;
+                        text-shadow: 0px 1px 3px #2728291f;
+                        cursor: pointer;
+                        transition: all 500ms ease-in-out;
+                    }
+                }
+                //portfolio...
+                .cont_car_proyects{
+                    .cont_car{
+                        background-color: $body-ligth;
+                        box-shadow: 0px 1px 6px #27282936;
+                        transition: all 500ms ease-in-out;
+                        .information{
+                            .title{
+                                color: $dark-ligth;
+                                transition: all 500ms ease-in-out;
+                            }
+                            .extracto{
+                                color: $aside-ligth;
+                                transition: all 500ms ease-in-out;
+                            }
+                            .tec{
+                                .leng{
+                                    background-color: $Title-and-selected-ligth;
+                                    color: $body-ligth;
+                                    text-shadow: 0px 1px 5px #2728296b;
+                                    transition: all 500ms ease-in-out;
+                                }
+                            }
+                            .links{
+                                a{
+                                    color: $Text-ligth;
+                                    transition: all 500ms ease-in-out;
+                                    .circle_link{
+                                        background-color: $Title-and-selected-ligth;
+                                        transition: all 500ms ease-in-out;
+                                    }
+                                    .circle_link:hover{
+                                        transition: all 600ms ease-in-out;
+                                        box-shadow: 0px 1px 6px #27282971;
+                                        transition: all 500ms ease-in-out;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                //education... 
+                .curso{
+                    .title_text_date{
+                        .title_text{
+                            h3{
+                                color: $Text-ligth;
+                                text-shadow: 0px 1px 2px #27282925;
+                                transition: all 500ms ease-in-out;
+                                span{
+                                    color: $Title-and-selected-ligth;
+                                }
+                            }
+                            p{
+                                color: $dark-ligth;//cambiar en reset
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                        .date{
+                            p{
+                                color: #272829;
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                    }
+                    .time_and_certificado{
+                        .time{
+                            //cambiar color en reset... 
+                            color: $Text-ligth;
+                            transition: all 500ms ease-in-out;
+                        }
+                        .btn_certificado{
+                            a{
+                                //cambiar en reset...
+                                background-color: $Text-ligth;
+                                color: #E7B10A;
+                                box-shadow: 0px 1px 1px 2px $dark-shadow-ligth;
+                            }
+                            a:hover{
+                                transition: all 500ms;
+                                background-color: #E7B10A;
+                                color: #272829;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                //skilss
+                .myskills{
+                    .skills{
+                        //All the ul's
+                        .all_ul{
+                            li{
+                                //cambiar esto en reset...
+                                background-color: #272829;
+                                color: $body-ligth;
+                                box-shadow: 0px 1px 5px #e7b00a36;
+                                transition: all 500ms ease-in-out;
+                                span{
+                                    //cambiar despues...
+                                    color: $Title-and-selected-ligth;
+                                    transition: all 500ms ease-in-out;
+                                }
+                                a{
+                                    color: $body-ligth;
+                                    transition: all 500ms ease-in-out;
+                                }
+                            }
+                            li:hover{
+                                background-color: #E7B10A;
+                                color: #272829;
+                                box-shadow: 1px 2px 8px #2728297b;
+                                transition: all 500ms ease-in-out;
+                            }
+                            li:hover span{
+                                color: $dark-ligth;
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                    }
+                }
+                //contact me... 
+                .infocontact{
+                    ul{
+                        li{
+                            color: $Text-ligth;
+                            transition: all 500ms ease-in-out;
+                            a{
+                                color: $Title-and-selected-ligth;
+                                text-shadow: 0px 2px 3px #2728291f;
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                    }
+                }
+                .infoDesarrollo{
+                    h3{
+                        color: $Text-ligth;
+                        transition: all 500ms ease-in-out;
+                    }
+                    ul{
+                        li{
+                            background-color: $Text-ligth;
+                            color: $body-ligth;
+                            transition: all 500ms ease-in-out;
+                            i{
+                                margin-right: 0.3em;
+                            }
+                        }
+                        li:hover{
+                            background-color: #E7B10A;
+                            color: #272829;
+                            box-shadow: 1px 2px 8px #2728297b;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//dark mode...
+.dark{
+    transition: all 500ms ease-in-out;
+    main{
+        aside{
+            background-color: $aside-dark;
+            .myphoto{
+                background-image: url("imagenes/myphotoDark.jpg");
+                transition: all 500ms ease-in-out;
+            }
+            .nav_list{
+                ul{
+                    li{
+                        a{
+                            color: $Text-dark;
+                        }
+                    }
+                }
+            }
+        }
+        .cont_all{
+            background-color: $body-dark;
+            .burger_menu{
+                color: $Text-dark;
+            }
+            .portCar{
+                border-top: 1px solid $Title-and-selected-dark;
+                border-bottom: 1px solid $Title-and-selected-dark;
+                .tema{
+                    h2{
+                        //el color se cambia en rest..
+                        color: $Text-dark;
+                        text-shadow: 0px 1px 6px #00000068;
+                        span{
+                            //cambiar color en reset
+                            color: $Title-and-selected-dark;
+                        }
+                    }
+                }
+                .info{
+                    h3{
+                        color: $Text-dark;
+                    }
+                    p{
+                        color: $Text-dark;
+                        a{
+                            color:$Title-and-selected-dark;
+                            text-shadow: 0px 1px 6px #00000032;
+                        }
+                    }
+                }
+                .btn_redes{
+                    .cont_btn{
+                        a{
+                            background-color: $Text-dark;
+                            color: #000000;
+                            box-shadow: 0px 1px 2px 5px #272829;
+                        }
+                        a:hover{
+                            transition: all 500ms;
+                            background-color: #E7B10A;
+                            color: #272829;
+                            cursor: pointer;
+                        }
+                    }
+                    .redes{
+                        .circles_redes{
+                            background-color: $aside-dark;
+                            i{
+                                color: $Text-dark;
+                            }
+                        }
+                        .circles_redes:hover{
+                            //cambiar esto en reset...
+                            transition: all 250ms ease-in-out;
+                            background-color: $Title-and-selected-dark;
+                            box-shadow: 0px 1px 6px #00000077;
+                        }
+                        .circles_redes:hover i{
+                            color: #272829;
+                        }
+                    }
+                }
+                //about me...
+                .remark{
+                    color: $Title-and-selected-dark;
+                    text-shadow: 0px 1px 3px #0000001f;
+                }
+                .contact{
+                    p{
+                        color: $Text-dark;
+                    }
+                    a{
+                        //cambiar en reset...
+                        color: $Title-and-selected-dark;
+                        text-shadow: 0px 1px 3px #0000001f;
+                        cursor: pointer;
+                    }
+                }
+                //portfolio...
+                .cont_car_proyects{
+                    .cont_car{
+                        background-color: $body-dark;
+                        box-shadow: 0px 2px 5px #00000087;
+                        .information{
+                            .title{
+                                color: $Text-dark;
+                            }
+                            .extracto{
+                                color: $Text-dark;
+                            }
+                            .tec{
+                                .leng{
+                                    background-color: $Title-and-selected-dark;
+                                    color: #272829;
+                                    text-shadow: 0px 1px 5px #0000006b;
+                                }
+                            }
+                            .links{
+                                a{
+                                    color: #272829;
+                                    .circle_link{
+                                        background-color: $Title-and-selected-dark;
+                                    }
+                                    .circle_link:hover{
+                                        transition: all 600ms ease-in-out;
+                                        box-shadow: 0px 1px 6px #d6dce371;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                //education... 
+                .curso{
+                    .title_text_date{
+                        .title_text{
+                            h3{
+                                color: $Text-dark;
+                                text-shadow: 0px 1px 2px #00000025;
+                                span{
+                                    color: $Title-and-selected-dark;
+                                }
+                            }
+                            p{
+                                color: $Text-dark;//cambiar en reset
+                            }
+                        }
+                        .date{
+                            p{
+                                color: #d9e0e6;
+                            }
+                        }
+                    }
+                    .time_and_certificado{
+                        .time{
+                            //cambiar color en reset... 
+                            color: $Text-dark;
+                        }
+                        .btn_certificado{
+                            a{
+                                //cambiar en reset...
+                                background-color: $Text-dark;
+                                color: #272829;
+                                box-shadow: 0px 2px 5px #0000006c;
+                            }
+                            a:hover{
+                                transition: all 500ms;
+                                background-color: #E7B10A;
+                                color: #272829;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                //skilss
+                .myskills{
+                    .skills{
+                        //All the ul's
+                        h3{
+                            color: $Text-dark;
+                        }
+                        .all_ul{
+                            li{
+                                //cambiar esto en reset...
+                                background-color: $aside-dark;
+                                color: $Text-dark;
+                                box-shadow: 0px 1px 5px #00000036;
+                                span{
+                                    //cambiar despues...
+                                    color: $Title-and-selected-dark;
+                                }
+                                a{
+                                    color: $Text-dark;
+                                }
+                            }
+                            li:hover{
+                                background-color: #E7B10A;
+                                color: #272829;
+                                box-shadow: 1px 2px 8px #0000007b;
+                                transition: all 500ms ease-in-out;
+                            }
+                            li:hover span{
+                                color: $Text-dark;
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                    }
+                }
+                //contact me... 
+                .infocontact{
+                    ul{
+                        li{
+                            color: $Text-dark;
+                            a{
+                                color: $Title-and-selected-dark;
+                                text-shadow: 0px 2px 3px #0000001f;
+                            }
+                        }
+                    }
+                }
+                .infoDesarrollo{
+                    h3{
+                        color: $Text-dark;
+                    }
+                    ul{
+                        li{
+                            background-color: $aside-dark;
+                            color: $Text-dark;
+                            i{
+                                margin-right: 0.3em;
+                            }
+                        }
+                        li:hover{
+                            background-color: #E7B10A;
+                            color: #272829;
+                            box-shadow: 1px 2px 8px #2728297b;
+                            transition: all 500ms ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

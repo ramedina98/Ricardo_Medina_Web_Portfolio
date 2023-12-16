@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page focused to show the personal portfolio
+    of Ricardo Medina, also with the function to show to the world his skills,
+    studies and other topics related to his profile as a web developer.">
+    <meta name="keywords" content="personal portfolio, web developer, skills, expertise, web development projects, Ricardo Medina, React, React.js, JavaScript">
+    <title>Ricardo Medina</title>
+    <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
+    <!--Fuentes de google-->
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--JS-->
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+    <script src="dark_mode.js" defer></script>
+</head>
+<body class="ligth">
+    <main>
+        <!--Sider...-->
+        <aside class="nav">
+            <div class="exit">
+                <i class="fas fa-times"></i>
+            </div>
+            <!--Div containing the imagen-->
+            <div class="myphoto"></div>
+            <!--Nav list div...-->
+            <div class="nav_list">
+                <ul class="element">
+                    <li class="elements"><a href="#ricardo" class="activo">ricardo</a></li>
+                    <li class="elements"><a href="#about">about me</a></li>
+                    <li class="elements"><a href="#porta">portfolio</a></li>
+                    <li class="elements"><a href="#education">education</a></li>
+                    <li class="elements"><a href="#skills">skills</a></li>
+                    <li class="elements"><a href="#contact">contact me</a></li>
+                </ul>
+            </div>
+            <!--btn dark and ligth mode...-->
+            <div class="cont_all_btn_dark">
+                <div class="cont_btn_dark">
+                    <button class="switch" id="switch">
+                        <img src="imagenes/sunny.png" alt="">
+                        <img src="imagenes/moon.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <!--Main...-->
+        <div class="cont_all">
+            <!--Burger menu-->
+        <div class="burger_menu">
+            <i class="fas fa-bars"></i>
+        </div>
+            <!--Ricardo-->
+            <article class="portCar" id="ricardo">
+                <div class="tema">
+                    <h2>ricardo <span>medina</span></h2>
+                </div>
+    
+                <div class="info">
+                    <h3>
+                        Welcome to my portfolio as a web developer.
+                    </h3>
+                    <p>If you want to contact me write to: <a href="mailto:rmedinamartindelcampo@gmail.com">rmedinamartindelcampo@gmail.com</a></p>
+                </div>
+    
+                <div class="btn_redes">
+                    <div class="cont_btn"> 
+                        <a href="cv/CV.pdf" target="_blank">Donwload CV</a>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/ricardo-abraham-medina-marti-del-campo-8baa7827a/" target="_blank">
+                            <div class="circles_redes">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/ramedina98?tab=repositories" target="_blank">
+                            <div class="circles_redes">
+                                <i class="fab fa-github icono-github"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/richard_b_stone/?hl=es-la" target="_blank">
+                            <div class="circles_redes">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </a>
+                        <a href="mailto:rmedinamartindelcampo@gmail.com" target="_blank">
+                            <div class="circles_redes">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <!--About me-->
+            <article class="portCar" id="about">
+                <div class="tema">
+                    <h2><span>about</span> me</h2>
+                </div>
+                <div class="info">
+                    <p>
+                        Since I started my career in software engineering at UNEDL University, in the 
+                        second semester, a whole new universe was revealed to me: 
+                        the intriguing world of web programming. I have always 
+                        considered myself a person with a creative mind, and it is 
+                        in the field of web development where I discover a perfect 
+                        synergy between my passion for programming and visual art. 
+                        Web development has become my niche, the place where 
+                        technique and creativity amalgamate to give life to a 
+                        digital world full of countless possibilities. As I move 
+                        forward, I've also begun to explore behind-the-scenes (Backend)
+                        aspects, allowing me to have a more complete understanding 
+                        of how everything fits into this exciting technological 
+                        landscape.
+                    </p>
+                </div>
+                <div class="remark">
+                    <p>
+                        I am always learning, there is 
+                        always something new to learn and I 
+                        am constantly evolving. 
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>If you want to contact with me write to me at: <a href="mailto:rmedinamartindelcampo@gmail.com">rmedinamartindelcampo@gmail.com</a></p>
+                    <p>My Linkdin: <a href="https://www.linkedin.com/in/ricardo-abraham-medina-marti-del-campo-8baa7827a/">in/Ricardo-Medina</a></p>
+                </div>
+            </article>
+            <!--portfolio-->
+            <article class="portCar" id="porta">
+                <div class="tema" id="tem">
+                    <h2>portfolio</h2>
+                </div>
+                <div class="cont_car_proyects">
+                    <!--Payment method..-->
+                    <div class="cont_car">
+                        <div class="payment"></div>
+                        <div class="information">
+                            <div class="title">
+                                <h3>METHOD OF PAYMENT</h3>
+                            </div>
+                            <div class="extracto">
+                                <p>
+                                    Frontend Mentor challenge. Page to make payments,
+                                    this only contains the frontend part.
+                                </p>
+                            </div>
+                            <div class="tec">
+                                <div class="leng"><i class="fab fa-react"></i></div>
+                                <div class="leng"><i class="fab fa-sass"></i></div>
+                                <div class="leng"><i class="fas fa-bold"></i></div>
+                            </div>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/ramedina98/paymet-card">
+                                    <div class="circle_link">
+                                        <i class="fab fa-github icono-github"></i>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://ramedina98.github.io/paymet-card/">
+                                    <div class="circle_link">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ecomerce-->
+                    <div class="cont_car">
+                        <div class="e_comerce"></div>
+                        <div class="information">
+                            <div class="title">
+                                <h3>E-COMMERCE</h3>
+                            </div>
+                            <div class="extracto">
+                                <p>
+                                    Frontend Mentor challeng, which consisted in
+                                    making the frontend part of an e-commerce page.
+                                </p>
+                            </div>
+                            <div class="tec">
+                                <div class="leng"><i class="fab fa-html5"></i> </div>
+                                <div class="leng"><i class="fab fa-css3-alt"></i></div>
+                                <div class="leng"><i class="fab fa-js"></i> </div>
+                            </div>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/ramedina98/E-commerce-product-page.github.io">
+                                    <div class="circle_link">
+                                        <i class="fab fa-github icono-github"></i>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://ramedina98.github.io/E-commerce-product-page.github.io/">
+                                    <div class="circle_link">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Metodos-->
+                    <div class="cont_car">
+                        <div class="metodos"></div>
+                        <div class="information">
+                            <div class="title">
+                                <h3>NUMERICAL METHODS</h3>
+                            </div>
+                            <div class="extracto">
+                                <p>
+                                    In this website we can calculate the approximate
+                                    square root of any interval or number. with several
+                                    of the most important numerical methods.
+                                </p>
+                            </div>
+                            <div class="tec">
+                                <div class="leng"><i class="fab fa-html5"></i></div>
+                                <div class="leng"><i class="fab fa-css3-alt"></i> </div>
+                                <div class="leng"><i class="fab fa-js"></i></div>
+                                <div class="leng"><i class="fas fa-bold"></i></div>
+                            </div>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/ramedina98/metodos-numericos.github.io">
+                                    <div class="circle_link">
+                                        <i class="fab fa-github icono-github"></i>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://ramedina98.github.io/metodos-numericos.github.io/">
+                                    <div class="circle_link">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--calculator...-->
+                    <div class="cont_car">
+                        <div class="calculator"></div>
+                        <div class="information">
+                            <div class="title">
+                                <h3>TIPS CALCULATOR</h3>
+                            </div>
+                            <div class="extracto">
+                                <p>This web helpes us calculate tips</p>
+                            </div>
+                            <div class="tec">
+                                <div class="leng"><i class="fab fa-html5"></i></div>
+                                <div class="leng"><i class="fab fa-css3-alt"></i></div>
+                                <div class="leng"><i class="fab fa-js"></i></div>
+                            </div>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/ramedina98/tip-calculator.github.io">
+                                    <div class="circle_link">
+                                        <i class="fab fa-github icono-github"></i>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://ramedina98.github.io/tip-calculator.github.io/">
+                                    <div class="circle_link">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Articulo...-->
+                    <div class="cont_car">
+                        <div class="articulo"></div>
+                        <div class="information">
+                            <div class="title">
+                                <h3>ARTICLE</h3>
+                            </div>
+                            <div class="extracto">
+                                <p>
+                                    This project is inspired by the articles that nat geo
+                                    publishes on its website.
+                                </p>
+                            </div>
+                            <div class="tec">
+                                <div class="leng"><i class="fab fa-html5"></i></div>
+                                <div class="leng"><i class="fab fa-css3-alt"></i></div>
+                                <div class="leng"><i class="fab fa-js"></i></div>
+                            </div>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/ramedina98/articulo-metodobabilonico.github.io">
+                                    <div class="circle_link">
+                                        <i class="fab fa-github icono-github"></i>
+                                    </div>
+                                </a>
+                                <a target="_blank" href="https://ramedina98.github.io/articulo-metodobabilonico.github.io/">
+                                    <div class="circle_link">
+                                        <i class="fas fa-link"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--Education...-->
+            <article class="portCar" id="education">
+                <div class="tema">
+                    <h2>education</h2>
+                </div>
+                <div class="curso">
+                    <div class="title_text_date">
+                        <div class="title_text">
+                            <h3>Desarrollo Frontend - Fundacion <span>Carlos Slim</span></h3>
+                            <p>web design with HTML-CSS-JS</p>
+                        </div>
+                        <div class="date">
+                            <p>NOV 18, 2022</p>
+                        </div>
+                    </div>
+                    <div class="time_and_certificado">
+                        <div class="time">
+                            <p><span>95-hour</span> diploma course</p>
+                        </div>
+                        <div class="btn_certificado">
+                            <a href="cv/web_certificado.pdf" target="_blank">certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="curso">
+                    <div class="title_text_date">
+                        <div class="title_text">
+                            <h3>Bachelor's Degree in Software Engineering - University <a target="_blank" href="https://www.unedl.edu.mx/portal/"><span>UNEDL</span></a></h3>
+                            <p>With a diploma in networking</p>
+                        </div>
+                        <div class="date">
+                            <p>SEP 04, 2021</p>
+                        </div>
+                    </div>
+                    <div class="time_and_certificado">
+                        <div class="time">
+                            <p><span>In progress</span> - Bachelor's Degree</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--Skills...-->
+            <article class="portCar" id="skills">
+                <div class="tema">
+                    <h2>skills</h2>
+                </div>
+                <div class="myskills">
+                    <div class="skills">
+                        <h3 class="titles_all">programming languages</h3>
+                        <ul class="all_ul">
+                            <li><i class="fab fa-html5"></i> HTML</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            <li><i class="fab fa-java"></i> Java</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3 class="titles_all">frameworks and libraries</h3>
+                        <ul class="all_ul">
+                            <li><i class="fab fa-react"></i> React.js</li>
+                            <li><i class="fab fa-node-js"></i> Node.js</li>
+                            <li><i class="fab fa-sass"></i> Sass</li>
+                            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3 class="titles_all">software and tools</h3>
+                        <ul class="all_ul">
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Photoshop</li>
+                            <li><i class="fas fa-code"></i> Visual Studio Code</li>
+                        </ul>
+                    </div>
+                    <div class="skills">
+                        <h3 class="titles_all">I am learning in</h3>
+                        
+                        <ul class="all_ul">
+                            <li>Backend with Node.js <span>Platzi</span></li>
+                            <li><span>Oracle One</span> program executed by <a target="_blank" href="https://www.aluracursos.com/?gclid=CjwKCAjw5remBhBiEiwAxL2M9_vhLAnZs2NMU3bv-sQvKvjJYvEWeqvQ-JfzeH6SiSko4zbaHLmDHRoCab8QAvD_BwE">Alura Latam</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!--contact me-->
+            <article class="portCar" id="contact">
+                <div class="tema">
+                    <h2>Contact me</h2>
+                </div>
+                <div class="infocontact">
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Email <a target="_blank" href="mailto:rmedinamartindelcampo@gmail.com"> rmedinamartindelcampo@gmail.com</a></li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp <a target="_blank" href="https://wa.me/+523326939306" target="_blank">+52 33 26 93 93 06</a></li>
+                        <li><i class="fab fa-linkedin"></i> LinkedIn <a target="_blank" href="https://www.linkedin.com/in/ricardo-abraham-medina-marti-del-campo-8baa7827a/" target="_blank">in/Ricard-Medina</a></li>
+                    </ul>
+                </div>
+                <div class="infoDesarrollo">
+                    <h3>This site has been developed with: </h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-sass"></i> Sass</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="my_name">
+            <h3>Ricardo <span>Medina</span></h3>
+            <h4>Web Developer</h4>
+        </div>
+        <div class="date">
+            <h4>Agust 2023</h4>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,738 @@
+@use './reset.scss';
+/*This is the main style sheet*/
+//google fonts import - roboto 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+$txt-roboto: 'Roboto', sans-serif; //txt variable...
+//footer variables colors...
+$body: #F7F1E5;
+$aside: #898121; 
+$Text: #272829; 
+$dark: #4C4B16; 
+$dark-shadow: #4c4b1627;
+$Title-and-selected: #E7B10A;
+//next...
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+}
+body{
+    font-family: $txt-roboto;
+    /*here i had to make some adjustments so that the aside
+    and the main were side by side...*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    //Here I start the editing of everything that is inside the body...
+    aside{
+        width: 350px;
+        @media screen and (max-width: 320px){
+            width: 320px;
+        }
+        height: 100vh;
+        position:sticky;
+        top: 0;
+        order: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 60px;
+        .exit{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: auto;
+            display: none;
+            justify-content: center;
+            font-size: 1.5em;
+            color: $body;
+            text-shadow: 0px 1px 5px #00000033;
+            i{
+                cursor: pointer;
+            }
+        }
+        .myphoto{
+            width: 170px;
+            height: 170px;
+            background-position: center;
+            background-size: cover;
+        }
+        .nav_list{
+            width: 90%;
+            height: auto;
+            margin-top: 2em;
+            ul{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                list-style: none;
+                li{
+                    margin: 0.5em 0;
+                    text-transform: uppercase;
+                    font-family: $txt-roboto;
+                    font-weight: 700;
+                    border-radius: 0.5em;
+                    padding: 0.8em 1em;
+                    cursor: pointer;
+                    a{
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: $Title-and-selected;
+                        text-shadow: 0px 1px 4px #0000004d;
+                        transition: all 200ms ease-in-out;
+                    }
+                    .activo{
+                        pointer-events: none;
+                    }
+                }
+                .activo{
+                    background-color: $Title-and-selected;
+                    border-radius: 0.5em;
+                    padding: 0.8em 1em;
+                    transition: all 200ms ease-in-out;
+                }
+            }
+        }
+        //btn dark...
+        .cont_all_btn_dark{
+            width: 250px;
+            height: 110px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .cont_btn_dark{
+                width: 130px;
+                height: 83px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .switch{
+                    width: 60%;
+                    height: 45%;
+                    background-color: rgb(159, 159, 159);
+                    border: none;
+                    border-radius: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items:  center;
+                    cursor: pointer;
+                    outline: none;
+                    position: relative;
+                    box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+                    -webkit-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+                    -moz-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+                }
+
+                .switch::after{
+                    content: "";/*Es muy importante para que funcionen los demás estilos...*/
+                    display: block;
+                    width: 33px;
+                    height: 33px;
+                    position: absolute;
+                    background-color: #f1f1f1;
+                    top: 2px;
+                    left: 0;
+                    right: unset;
+                    border-radius: 100px;
+                    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, .2);
+                    transition: all 500ms ease-in-out;
+                }
+
+                .switch img{
+                    width: 30%;
+                }
+                .switch img:first-of-type{
+                    margin-left: 0.4rem;
+                }
+                .switch img:last-of-type{
+                    margin-right: 0.4rem;
+                }
+                //this works when dark mode is activeted...
+                .active{
+                    width: 60%;
+                    height: 45%;
+                    background-color: rgba(230, 179, 84, 0.691);
+                    border: none;
+                    border-radius: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items:  center;
+                    cursor: pointer;
+                    outline: none;
+                    position: relative;
+                    box-shadow: 0px 0px 0px 6px rgba(0, 0, 0, 0.06);
+                    -webkit-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+                    -moz-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+                }
+                .active::after{
+                    content: "";/*Es muy importante para que funcionen los demás estilos...*/
+                    display: block;
+                    width: 33px;
+                    height: 33px;
+                    position: absolute;
+                    background-color: #f1f1f1;
+                    top: 2px;
+                    left: unset;
+                    right: 0;
+                    border-radius: 100px;
+                    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, .2);
+                    transition: all 500ms ease-in-out;
+                }
+                .active img{
+                    width: 30%;
+                }
+                .active img:first-of-type{
+                    margin-left: 0.4rem;
+                }
+                .active img:last-of-type{
+                    margin-right: 0.4rem;
+                }
+            }
+        }
+    }
+    .cont_all{
+        width: 100%;
+        height: auto;
+        padding: 1.5em;
+        @media screen and (max-width: 854px){
+            padding: 0;
+        }
+        order: 2;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        //burguer menu... 
+        .burger_menu{
+            position: fixed;
+            top: 35px;
+            right: 0;
+            width: 50px;
+            height: auto;
+            display: none;
+            justify-content: center;
+            font-size: 2em;
+            cursor: pointer;
+        }
+        .portCar{
+            padding: 1em 0 1em 0;
+            width: 90%;
+            @media screen and (max-width: 854px){
+                padding: 0;
+                width: 95%;
+            }
+            height: 800px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            @media screen and (max-width:506px){
+                align-items: center;
+            }
+            flex-direction: column;
+            .tema{
+                margin: 1em 0 3em  0;
+                width: 80%;
+                height: auto;
+                @media screen and (max-width: 506px) {
+                    text-align: center;
+                }
+                h2{
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    font-size: 3.5em;
+                    @media screen and (max-width: 506px){
+                        font-size: 2.5em;
+                    }
+                }
+            }
+            .info{
+                width: 90%;
+                height: auto;
+                h3{
+                    font-size: 2em;
+                    letter-spacing: 0.08em;
+                    margin-bottom: 2em;
+                }
+                p{
+                    font-size: 1.1em;
+                    letter-spacing: 0.08em;
+                    line-height: 1.6;
+                    a{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn_redes{
+                width: 90%;
+                height: auto;
+                margin: 2em 0 3em 0;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                .cont_btn{
+                    width: 95%;
+                    padding: 0.9em 0;
+                    a{
+                        border-radius: 0.5em;
+                        padding: 0.9em;
+                        text-decoration: none;
+                        font-weight: 500;
+                        letter-spacing: 0.07em;
+                        //cambiar en reset...
+                        color: #E7B10A;
+                    }
+                }
+                .redes{
+                    width: 250px;
+                    height: auto;
+                    margin-top: 4em;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    flex-direction: row;
+                    .circles_redes{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 1em;
+                        cursor: pointer;
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+            //about me...
+            .remark{
+                width: 95%;
+                height: auto;
+                font-size: 1.3em;
+                letter-spacing: 0.08em;
+                font-weight: 700;
+                line-height: 1.6;
+            }
+            .contact{
+                width: 95%;
+                height: auto;
+                font-size: 1.1em;
+                letter-spacing: 0.08em;
+                line-height: 1.6;//about me need this...
+                a{
+                    cursor: pointer;
+                }
+            }
+            //portfolio...
+            .cont_car_proyects{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                @media screen and (max-width:854px){
+                    justify-content: center;
+                }
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 25px;
+                margin: 1em 0 3em 0;
+                .cont_car{
+                    width: 370px;
+                    height: 460px;
+                    display: flex;
+                    flex-direction: column;
+                    //payment method imagen...
+                    .payment{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url("imagenes/paymentcar.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-clip: content-box;
+                    }
+                    //e comerce imagen..
+                    .e_comerce{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url("imagenes/ecomnerce.jpg");
+                        background-position: center;
+                        background-size: cover;
+                        background-clip: content-box;
+                    }
+                    //metodos imagen...
+                    .metodos{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url("imagenes/metodos.jpg");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    //calculator imagen...
+                    .calculator{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url("imagenes/calculator.jpg");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    //articulo imagen...
+                    .articulo{
+                        width: 100%;
+                        height: 45%;
+                        background-image: url("imagenes/articulo.jpg");
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .information{
+                        width: 100%;
+                        height: 55%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        flex-direction: column;
+                        .title{
+                            font-size: 1.2em;
+                            width: 95%;
+                            text-align: center;
+                        }
+                        .extracto{
+                            font-size: 1em;
+                            width: 95%;
+                            text-align: center;
+                        }
+                        .tec{
+                            width: 95%;
+                            height: auto;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            gap: 10px;
+                            .leng{
+                                padding: 0.5em 0.8em;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 1em;
+                            }
+                        }
+                        .links{
+                            width: 65%;
+                            height: auto;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            flex-direction: row;
+                            margin: 0.6em 0;
+                            a{
+                                text-decoration: none;
+                                .circle_link{
+                                    width: 35px;
+                                    height: 35px;
+                                    border-radius: 35px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            //education... 
+            .curso{
+                width: 95%;
+                height: auto;
+                padding: 1em 0 1em;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                .title_text_date{
+                    width: 95%;
+                    @media screen and (max-width: 854px){
+                        width: 100%;
+                    }
+                    height: auto;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    flex-direction: row;
+                    margin-bottom: 3em;
+                    .title_text{
+                        width: 80%;
+                        height: auto;
+                        letter-spacing: 0.06em;
+                        h3{
+                            font-size: 1.4em;
+                            @media screen and (max-width: 854px){
+                                font-size: 1.2em;
+                            }
+                            margin-bottom: 0.4em;
+                            text-transform: uppercase;
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+                        p{
+                            font-size: 1.1em;
+                            text-transform: uppercase;
+                        }
+                    }
+                    .date{
+                        width: 15%;
+                        text-align: center;
+                        p{
+                            font-size: 0.8em;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .time_and_certificado{
+                    width: 95%;
+                    height: auto;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    .time{
+                        font-size: 0.75em;
+                        letter-spacing: 0.06em;
+                        text-transform: uppercase;
+                        margin-bottom: 2em;
+                    }
+                    .btn_certificado{
+                        width: 95%;
+                        height: 50px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        //cambiar color en reset...
+                        a{
+                            border-radius: 0.5em;
+                            padding: 0.9em;
+                            text-decoration: none;
+                            font-weight: 500;
+                            letter-spacing: 0.07em;
+                            //cambiar en reset...
+                        }
+                    }
+                }
+            }
+            //skilss
+            .myskills{
+                width: 95%;
+                height: 600px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                flex-direction: column;
+                .skills{
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    //All h3...
+                    .titles_all{
+                        text-transform: uppercase;
+                        margin-bottom: 1em;
+                    }
+                    //All the ul's
+                    .all_ul{
+                        padding: 1em 0 1em 0;
+                        width: 100%;
+                        height: auto;
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 40px;
+                        li{
+                            padding: 0.5em;
+                            width: auto;
+                            height: auto;
+                            border-radius: 0.5em;
+                            cursor: pointer;
+                            font-weight: 500;
+                            letter-spacing: 0.03em;
+                            i{
+                                margin-right: 0.3em;
+                            }
+                            span{
+                                //cambiar despues...
+                                transition: all 500ms ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+            //contact me... 
+            .infocontact{
+                width: 95%;
+                height: auto;
+                ul{
+                    width: 100%;
+                    height: auto;
+                    list-style: none;
+                    font-size: 1.2em;
+                    li{
+                        margin: 1.5em 0;
+                        letter-spacing: 0.03em;
+                        cursor: pointer;
+                        i{
+                            margin-right: 0.3em;
+                        }
+                    }
+                }
+            }
+            .infoDesarrollo{
+                width: 95%;
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                h3{
+                    margin-bottom: 1em;
+                    text-transform: uppercase;
+                    letter-spacing: 0.03em;
+                }
+                ul{
+                    border: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    gap: 30px;
+                    align-items: center;
+                    list-style: none;
+                    li{
+                        padding: 0.5em 0.7em;
+                        border-radius: 0.5em;
+                        cursor: pointer;
+                        font-weight: 500;
+                        letter-spacing: 0.02em;
+                        i{
+                            margin-right: 0.3em;
+                        }
+                    }
+                }
+            }
+        }
+        #porta{
+            height: auto;
+            #tem{
+                margin-top: 3em;
+            }
+        }
+    }
+}
+//footer
+footer{
+    width: 100%;
+    height: auto;
+    background-color: $Text;
+    padding: 2em;
+    color: $body;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    .my_name{
+        width: 90%;
+        height: auto;
+        text-align: center;
+        padding: 3em 0;
+        h3{
+            margin-bottom: 0.3em;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            text-shadow: 2px 1px 3px #00000087;
+            span{
+                color: $Title-and-selected;
+            }
+        }
+        h4{
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            text-shadow: 2px 1px 3px #00000087;
+        }
+    }
+    .date{
+        width: 90%;
+        height: auto;
+        border-top: 0.5px solid $body;
+        text-align: center;
+        padding: 1em 0;
+        h4{
+            font-size: 1.1em;
+            letter-spacing: 0.05em;
+            font-weight: 300;
+            text-shadow: 2px 1px 3px #00000087;
+        }
+    }
+}
+
+
+@media screen and (max-width: 854px){
+    main{
+        aside{
+            position: fixed;
+            right: 0;
+            display: none;
+            .exit{
+                display: block;
+            }
+        }
+        .cont_all{
+            .burger_menu{
+                display: block;
+            }
+        }
+    }
+}
+@media screen and (max-width: 506px) {
+    body{
+        font-size: 13px;
+    }
+}
+
+//heigh
+@media screen and (max-height: 720px){
+    main{
+        aside{
+            .myphoto{
+                display: none;
+            }
+        }
+    }
+}
