@@ -21,7 +21,7 @@ const projects = async () => {
 }
 const stack = (stackItems) => {
     const elements = stackItems.map(item => `<div class="leng"><i class="${item}"></i></div>`);
-    return elements.join(''); // Concatena todos los elementos del array en una sola cadena sin comas
+    return elements.join(''); 
 };
 const displayTheData = async () => {
     try {
