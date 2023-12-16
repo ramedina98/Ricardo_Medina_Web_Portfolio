@@ -352,10 +352,7 @@ main{
                 width: 100%;
                 height: auto;
                 display: flex;
-                justify-content: flex-start;
-                @media screen and (max-width:854px){
-                    justify-content: center;
-                }
+                justify-content: space-evenly;
                 flex-direction: row;
                 align-items: center;
                 flex-wrap: wrap;
@@ -363,50 +360,21 @@ main{
                 margin: 1em 0 3em 0;
                 .cont_car{
                     width: 370px;
-                    height: 460px;
+                    @media screen and (max-width:320px){
+                        width: 320px;
+                    }
+                    height: 485px;
                     display: flex;
                     flex-direction: column;
-                    //payment method imagen...
-                    .payment{
+                    .img_cont{
                         width: 100%;
                         height: 45%;
-                        background-image: url("imagenes/paymentcar.jpg");
-                        background-position: center;
-                        background-size: cover;
-                        background-clip: content-box;
-                    }
-                    //e comerce imagen..
-                    .e_comerce{
-                        width: 100%;
-                        height: 45%;
-                        background-image: url("imagenes/ecomnerce.jpg");
-                        background-position: center;
-                        background-size: cover;
-                        background-clip: content-box;
-                    }
-                    //metodos imagen...
-                    .metodos{
-                        width: 100%;
-                        height: 45%;
-                        background-image: url("imagenes/metodos.jpg");
-                        background-position: center;
-                        background-size: cover;
-                    }
-                    //calculator imagen...
-                    .calculator{
-                        width: 100%;
-                        height: 45%;
-                        background-image: url("imagenes/calculator.jpg");
-                        background-position: center;
-                        background-size: cover;
-                    }
-                    //articulo imagen...
-                    .articulo{
-                        width: 100%;
-                        height: 45%;
-                        background-image: url("imagenes/articulo.jpg");
-                        background-position: center;
-                        background-size: cover;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                        }
                     }
                     .information{
                         width: 100%;

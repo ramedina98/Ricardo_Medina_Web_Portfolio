@@ -6,7 +6,7 @@
   transition: all 500ms ease-in-out;
 }
 .ligth main aside .myphoto {
-  background-image: url("imagenes/myphotoLigth.jpg");
+  background-image: url("../imagenes/myphotoLigth.jpg");
   transition: all 500ms ease-in-out;
 }
 .ligth main aside .nav_list ul li a {
@@ -206,7 +206,7 @@
   background-color: #735f32;
 }
 .dark main aside .myphoto {
-  background-image: url("imagenes/myphotoDark.jpg");
+  background-image: url("../imagenes/myphotoDark.jpg");
   transition: all 500ms ease-in-out;
 }
 .dark main aside .nav_list ul li a {
@@ -725,60 +725,33 @@ main .cont_all .portCar .cont_car_proyects {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   gap: 25px;
   margin: 1em 0 3em 0;
 }
-@media screen and (max-width: 854px) {
-  main .cont_all .portCar .cont_car_proyects {
-    justify-content: center;
-  }
-}
 main .cont_all .portCar .cont_car_proyects .cont_car {
   width: 370px;
-  height: 460px;
+  height: 485px;
   display: flex;
   flex-direction: column;
 }
-main .cont_all .portCar .cont_car_proyects .cont_car .payment {
-  width: 100%;
-  height: 45%;
-  background-image: url("imagenes/paymentcar.jpg");
-  background-position: center;
-  background-size: cover;
-  background-clip: content-box;
+@media screen and (max-width: 320px) {
+  main .cont_all .portCar .cont_car_proyects .cont_car {
+    width: 320px;
+  }
 }
-main .cont_all .portCar .cont_car_proyects .cont_car .e_comerce {
+main .cont_all .portCar .cont_car_proyects .cont_car .img_cont {
   width: 100%;
   height: 45%;
-  background-image: url("imagenes/ecomnerce.jpg");
-  background-position: center;
-  background-size: cover;
-  background-clip: content-box;
 }
-main .cont_all .portCar .cont_car_proyects .cont_car .metodos {
+main .cont_all .portCar .cont_car_proyects .cont_car .img_cont img {
   width: 100%;
-  height: 45%;
-  background-image: url("imagenes/metodos.jpg");
-  background-position: center;
-  background-size: cover;
-}
-main .cont_all .portCar .cont_car_proyects .cont_car .calculator {
-  width: 100%;
-  height: 45%;
-  background-image: url("imagenes/calculator.jpg");
-  background-position: center;
-  background-size: cover;
-}
-main .cont_all .portCar .cont_car_proyects .cont_car .articulo {
-  width: 100%;
-  height: 45%;
-  background-image: url("imagenes/articulo.jpg");
-  background-position: center;
-  background-size: cover;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 main .cont_all .portCar .cont_car_proyects .cont_car .information {
   width: 100%;

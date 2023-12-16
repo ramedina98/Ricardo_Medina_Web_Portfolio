@@ -7,7 +7,7 @@
             background-color: $aside-ligth;
             transition: all 500ms ease-in-out;
             .myphoto{
-                background-image: url("imagenes/myphotoLigth.jpg");
+                background-image: url("../imagenes/myphotoLigth.jpg");
                 transition: all 500ms ease-in-out;
             }
             .nav_list{
@@ -277,7 +277,7 @@
         aside{
             background-color: $aside-dark;
             .myphoto{
-                background-image: url("imagenes/myphotoDark.jpg");
+                background-image: url("../imagenes/myphotoDark.jpg");
                 transition: all 500ms ease-in-out;
             }
             .nav_list{
